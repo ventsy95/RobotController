@@ -68,8 +68,8 @@ public class TricksFragment extends Fragment {
         switch(buttonText){
             case "Wave": request("wave"); break;
             case "Duck": request("duck"); break;
-            case "Turn LED ON": request("ledon"); break;
-            case "Turn LED OFF": request("ledoff"); break;
+            case "Turn LED ON": request("ledOn"); break;
+            case "Turn LED OFF": request("ledOff"); break;
         }
         System.out.println(buttonText);
     }
